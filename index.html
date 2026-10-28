@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe & Bound - Terms of Use (EULA) & Privacy Policy</title>
+  <style>
+    :root {
+      --primary: #6C47FF;
+      --primary-bg: #F5F3FF;
+      --text-dark: #111827;
+      --text-gray: #4B5563;
+      --border: #E5E7EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background-color: #F9FAFB;
+      color: var(--text-dark);
+      line-height: 1.65;
+      padding: 24px 16px 60px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      border: 1px solid var(--border);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .lang-switch {
+      display: flex;
+      gap: 6px;
+      background: #F3F4F6;
+      padding: 4px;
+      border-radius: 20px;
+    }
+    .lang-btn {
+      border: none;
+      background: transparent;
+      padding: 6px 14px;
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text-gray);
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #FFFFFF;
+    }
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin: 22px 0;
+    }
+    .tab-btn {
+      flex: 1;
+      padding: 13px 16px;
+      border-radius: 14px;
+      border: 1.5px solid var(--border);
+      background: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-gray);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn.active {
+      border-color: var(--primary);
+      background: var(--primary-bg);
+      color: var(--primary);
+    }
+    h1 { font-size: 22px; margin-bottom: 8px; color: var(--text-dark); }
+    .updated { font-size: 13px; color: var(--text-gray); margin-bottom: 24px; }
+    h2 { font-size: 16px; margin: 24px 0 8px; color: var(--text-dark); }
+    p, li { font-size: 14px; color: var(--text-gray); margin-bottom: 10px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    .highlight-box {
+      background: var(--primary-bg);
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 12px;
+      margin: 18px 0;
+    }
+    .footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-gray);
+    }
+    a { color: var(--primary); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">🛡️ Safe & Bound</div>
+      <div class="lang-switch">
+        <button id="btn-en" class="lang-btn active" onclick="setLang('en')">English</button>
+        <button id="btn-ko" class="lang-btn" onclick="setLang('ko')">한국어</button>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button id="tab-terms" class="tab-btn active" onclick="setTab('terms')">
+        Terms of Use (EULA) / 이용약관
+      </button>
+      <button id="tab-privacy" class="tab-btn" onclick="setTab('privacy')">
+        Privacy Policy / 개인정보처리방침
+      </button>
+    </div>
+
+    <!-- ================= ENGLISH: TERMS OF USE (EULA) ================= -->
+    <div id="content-en-terms">
+      <h1>Terms of Use & End User License Agreement (EULA)</h1>
+      <div class="updated">Effective Date: October 28, 2026 | Developer: JG Soft (제이지소프트)</div>
+
+      <p>This End User License Agreement ("Agreement" or "EULA") governs your use of the <strong>Safe & Bound</strong> mobile application and web live-sharing services operated by <strong>JG Soft</strong> ("Company", "we", "us"). In addition to these terms, your use of the app on iOS devices is subject to Apple's Standard EULA (<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple Standard EULA</a>).</p>
+
+      <div class="highlight-box">
+        <h2>Auto-Renewable Subscription Disclosure (Safe & Bound PRO)</h2>
+        <ul>
+          <li><strong>Subscription Titles:</strong> Safe & Bound PRO Monthly / Safe & Bound PRO Yearly</li>
+          <li><strong>Subscription Features:</strong> 30-day road-snapped location history, unlimited Safe Places (geofencing alerts), 3% Battery Last-Will Auto-Pin, and real-time emergency SOS streaming.</li>
+          <li><strong>Payment & Renewal:</strong> Payment will be charged to your Apple ID or Google Play account at the confirmation of purchase. The subscription automatically renews unless it is canceled at least 24 hours before the end of the current period.</li>
+          <li><strong>Cancellation & Management:</strong> You can manage and cancel your subscriptions at any time by going to your device's Account Settings (iOS: <em>Settings &gt; Apple ID &gt; Subscriptions</em> / Android: <em>Google Play Store &gt; Payments &amp; subscriptions</em>) after purchase.</li>
+        </ul>
+      </div>
+
+      <h2>1. Lawful & Consensual Use Only</h2>
+      <p>Safe & Bound is strictly designed for consensual family, partner, and friend safety sharing. You may only share or view locations of Circle members who have explicitly joined your Circle or received your temporary Safe-Return Web Link. Non-consensual tracking is strictly prohibited.</p>
+
+      <h2>2. Limitation of Liability</h2>
+      <p>Location accuracy, SOS alerts, and 3-second Walkie-Talkie (PTT) depend on GPS satellite visibility and mobile network coverage. The service is a supplementary safety tool and does not replace official emergency services (such as 911 or 112).</p>
+    </div>
+
+    <!-- ================= ENGLISH: PRIVACY POLICY ================= -->
+    <div id="content-en-privacy" class="hidden">
+      <h1>Privacy Policy & Location Data Policy</h1>
+      <div class="updated">Effective Date: October 28, 2026 | Developer: JG Soft (제이지소프트)</div>
+
+      <p><strong>JG Soft</strong> values your privacy and minimizes data collection. We do not sell, rent, or monetize your personal location data with third-party advertisers.</p>
+
+      <h2>1. Data We Collect</h2>
+      <ul>
+        <li><strong>Profile & Circle Info:</strong> Display nickname and 6-digit Circle invite code.</li>
+        <li><strong>Location & Device Telemetry:</strong> Real-time GPS coordinates (latitude, longitude, speed) and battery percentage (%) to display member status and trigger Safe Place (geofence) arrival/departure alerts.</li>
+        <li><strong>3-Second Walkie-Talkie (PTT) Audio:</strong> Ephemeral voice clips transmitted to your Circle members and automatically deleted after delivery.</li>
+      </ul>
+
+      <h2>2. Zero-Retention Safe-Return Web Links</h2>
+      <p>When you generate a "Safe-Return Live Share" web link, a temporary token is created that expires automatically after 30 minutes or upon arrival. Once expired, access to the live coordinates is permanently revoked.</p>
+
+      <h2>3. Data Retention & Account Deletion</h2>
+      <p>Location history is retained for up to 2 hours for free users and up to 30 days for PRO subscribers, after which it is automatically purged. You may leave a Circle or request immediate data deletion at any time by contacting our support team below.</p>
+    </div>
+
+    <!-- ================= KOREAN: 이용약관 (EULA) ================= -->
+    <div id="content-ko-terms" class="hidden">
+      <h1>서비스 이용약관 및 최종 사용자 라이선스 계약 (EULA)</h1>
+      <div class="updated">시행일: 2026년 10월 28일 | 제공사: 제이지소프트 (JG Soft)</div>
+
+      <p>본 약관(EULA)은 <strong>제이지소프트(JG Soft)</strong>가 제공하는 <strong>Safe & Bound</strong> 위치 안전 애플리케이션 및 웹 공유 서비스의 이용 조건과 유료 구독 규정을 명시합니다. 본 앱은 Apple 표준 EULA(<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple 표준 약관 보기</a>)를 준수합니다.</p>
+
+      <div class="highlight-box">
+        <h2>자동 갱신형 정기 구독 안내 (Safe & Bound PRO)</h2>
+        <ul>
+          <li><strong>구독 상품명:</strong> Safe & Bound PRO 월간 구독 / 연간 구독</li>
+          <li><strong>제공 혜택:</strong> 30일 실제 도로 밀착 이동 경로 조회, 안심 장소(지오펜싱) 무제한 등록, 배터리 3% 미만 시 마지막 위치 자동 유언 핀 박제, 무음 SOS 긴급 위치 스트리밍.</li>
+          <li><strong>결제 및 자동 갱신:</strong> 구매 확인 시 사용자의 Apple App Store 또는 Google Play 계정으로 요금이 청구됩니다. 현재 구독 기간 종료 최소 24시간 전에 해지하지 않으면 동일한 조건으로 자동 갱신됩니다.</li>
+          <li><strong>구독 관리 및 해지 방법:</strong> 구매 후 언제든지 스마트폰의 <em>[설정 &gt; Apple ID &gt; 구독]</em> 또는 <em>[Google Play 스토어 &gt; 결제 및 정기 결제]</em> 메뉴에서 직접 해지할 수 있습니다.</li>
+        </ul>
+      </div>
+
+      <h2>제1조 (적법한 상호 동의 기반 이용)</h2>
+      <p>본 서비스는 가족, 연인, 친구 등 상호 명시적 동의를 거친 서클(Circle) 멤버 간의 안전 확인 목적으로만 사용할 수 있으며, 타인의 동의 없는 위치 추적 용도로 악용하는 것을 엄격히 금지합니다.</p>
+
+      <h2>제2조 (면책 사항)</h2>
+      <p>GPS 위치 정확도 및 3초 무전(PTT), SOS 알림은 단말기의 통신 음영지역 여부에 영향을 받을 수 있으며, 112/119 등 국가 공식 긴급 구조망을 대체하지 않습니다.</p>
+    </div>
+
+    <!-- ================= KOREAN: 개인정보처리방침 ================= -->
+    <div id="content-ko-privacy" class="hidden">
+      <h1>개인정보처리방침 및 위치기반서비스 이용약관</h1>
+      <div class="updated">시행일: 2026년 10월 28일 | 개인정보보호책임자: 정기성 (제이지소프트)</div>
+
+      <p><strong>제이지소프트(JG Soft)</strong>는 이용자의 프라이버시를 최우선으로 보호하며, 수집된 위치 데이터를 제3자 광고주에게 판매하거나 제공하지 않습니다.</p>
+
+      <h2>1. 수집하는 개인정보 및 위치정보 항목</h2>
+      <ul>
+        <li><strong>필수 항목:</strong> 사용자 닉네임(프로필명), 6자리 서클 초대 코드, 단말기 배터리 잔량(%), 실시간 위도·경도(GPS) 좌표 및 이동 속도.</li>
+        <li><strong>선택 항목:</strong> 3초 보이스 무전(PTT) 음성 데이터(전송 후 즉시 파기).</li>
+      </ul>
+
+      <h2>2. '1초 안심 귀가 웹 공유' 자동 파기 원칙 (Zero-Retention)</h2>
+      <p>사용자가 생성한 안심 귀가 웹 공유 링크는 최대 30분 후 또는 목적지 도착 즉시 만료되며, 만료된 링크 토큰을 통한 위치 열람 권한은 서버에서 즉시 영구 폐기됩니다.</p>
+
+      <h2>3. 보유 기간 및 즉시 파기 요청 권리</h2>
+      <p>이동 경로 기록은 무료 회원 최대 2시간, PRO 구독 회원 최대 30일 보관 후 자동 삭제됩니다. 사용자는 언제든 서클을 탈퇴하거나 아래 고객센터 이메일을 통해 모든 데이터의 즉시 삭제를 요청할 수 있습니다.</p>
+    </div>
+
+    <div class="footer">
+      <strong>Customer Support &amp; Data Protection Officer (고객센터 및 문의처)</strong><br />
+      Company: JG Soft (제이지소프트) | Representative: Jeong Giseong (정기성)<br />
+      Email: <a href="mailto:jeonggiseong73@gmail.com">jeonggiseong73@gmail.com</a>
+    </div>
+  </div>
+
+  <script>
+    let currentLang = (navigator.language || 'en').toLowerCase().startsWith('ko') ? 'ko' : 'en';
+    let currentTab = 'terms';
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('tab') === 'privacy') currentTab = 'privacy';
+    if (params.get('lang') === 'ko') currentLang = 'ko';
+    if (params.get('lang') === 'en') currentLang = 'en';
+
+    function render() {
+      document.getElementById('btn-en').classList.toggle('active', currentLang === 'en');
+      document.getElementById('btn-ko').classList.toggle('active', currentLang === 'ko');
+      document.getElementById('tab-terms').classList.toggle('active', currentTab === 'terms');
+      document.getElementById('tab-privacy').classList.toggle('active', currentTab === 'privacy');
+
+      ['en-terms', 'en-privacy', 'ko-terms', 'ko-privacy'].forEach(id => {
+        document.getElementById('content-' + id).classList.add('hidden');
+      });
+      document.getElementById(`content-${currentLang}-${currentTab}`).classList.remove('hidden');
+    }
+
+    function setLang(lang) { currentLang = lang; render(); }
+    function setTab(tab) { currentTab = tab; render(); }
+    render();
+  </script>
+</body>
+</html>
